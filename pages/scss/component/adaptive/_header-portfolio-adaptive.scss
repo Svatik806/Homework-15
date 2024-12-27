@@ -1,6 +1,6 @@
 @media screen and (max-width: 905px) {
   .header {
-    &_rigthside {
+    &_rightside {
       flex-direction: column;
       gap: 10px;
       align-items: start;
@@ -11,7 +11,7 @@
 @media screen and (max-width: 745px) {
   .header {
     &_navigation,
-    &_rigthside--first {
+    &_rightside--first {
       display: none;
     }
 
@@ -20,11 +20,15 @@
 
       &:hover {
         cursor: pointer;
-     
       }
-      &:hover &--list{
+
+      &--list {
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+      }
+
+      &:hover &--list {
         transform: translateX(0);
-        
       }
     }
   }
