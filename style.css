@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("./css/reset.css");
 @import url("./css/animation.css");
@@ -5,3 +6,12 @@
 @import url("./css/main.css");
 @import url("./css/footer.css");
 @import url("./css/modal.css");
+=======
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("./css/reset.css");
+@import url("./css/animation.css");
+@import url("./css/header.css");
+@import url("./css/main.css");
+@import url("./css/footer.css");
+@import url("./css/modal.css");
+>>>>>>> 4a9154a2a1526edf7ca35c664d88d2b284fbb4b3

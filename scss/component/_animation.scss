@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @keyframes shadow {
   0% {
     box-shadow: 0 0 10px 0 #306794, 0 0 10px 0 #306794;
@@ -9,3 +10,16 @@
     box-shadow: 0 0 8px 2px #306794, 0 0 1px 10px #306794;
   }
 }
+=======
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 10px 0 #306794, 0 0 10px 0 #306794;
+  }
+  50% {
+    box-shadow: 0 0 3px 1px#306794, 0 0 3px 1px #306794; /* плавный промежуточный эффект */
+  }
+  100% {
+    box-shadow: 0 0 8px 2px #306794, 0 0 1px 10px #306794;
+  }
+}
+>>>>>>> 4a9154a2a1526edf7ca35c664d88d2b284fbb4b3
